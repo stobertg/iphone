@@ -1,0 +1,28 @@
+// Absolute Positioning
+
+%absolute{
+    position: absolute;
+}
+
+%margin-auto{
+    margin: auto;
+}
+
+%center-horizontal{
+    @extend %absolute;
+    right: 0px;  
+    left: 0px;
+    @extend %margin-auto;
+}
+
+%center-vertical{
+    @extend %absolute;
+    top: 0px;
+    bottom: 0px;
+    @extend %margin-auto;
+}
+
+%center-all{
+    @extend %center-horizontal;
+    @extend %center-vertical;
+}

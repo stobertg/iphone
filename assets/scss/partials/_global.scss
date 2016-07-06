@@ -1,0 +1,16 @@
+//Dark Background
+
+body{
+	background: #cd4c4d;
+}
+
+// Global Color
+
+$iphone-black: #1d1d1d;
+
+// Global Sudo Properties
+
+%sudos{
+	content: ' ';
+	@extend %absolute;
+}
